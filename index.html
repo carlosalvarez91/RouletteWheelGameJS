@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Roulette Wheel</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+  <div ng-app="roulette" ng-controller="selectCtrl">
+  Select players
+<!--<select ng-model="selectedName" ng-options="obj.value as obj.text for obj in players">
+</select>-->
+<form>
+<select id="playersList" onchange="changeFunc();">
+</select>
+</form>
+</div>
+
+<input type="button" value="spin" style="float:left;" id='spin'onclick="play()" />
+<audio id="audio" src="http://www.drodd.com/sound-effects/roulette_wheel.wav" ></audio>
+<canvas id="canvas" width="500" height="500"></canvas>
+
+ <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>-->
+  <script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+  </script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>
