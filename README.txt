@@ -1,5 +1,4 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/carlosalvarez91/pen/bBJOdY.
+A Pen created at CodePen.io. You can find this one at https://codepen.io/carlosalvarez91/pen/mMaJpb.
 
- It's a roulette wheel!  Set some options, hit spin and see the result!
-
-needs to be put in to an object and made self-sufficient, but basically works!
+ A roulette wheel to drink Shots!
+Forked From: https://codepen.io/barney-parker/pen/OPyYqy
